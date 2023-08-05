@@ -1,0 +1,32 @@
+%estilo-header {
+    .navbar {
+        background-color: #4b5150 !important;
+
+        .container-fluid {
+
+            .navbar-brand {
+                color: white;
+                font-size: 1.4rem;
+            }
+
+
+            .collapse {
+                .navbar-nav {
+                    gap: 0.5rem;
+
+                    .nav-item {
+                        .boton-header {
+                            border-radius: 2rem;
+                            background-color: #bdcc66;
+                        }
+
+                        a {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

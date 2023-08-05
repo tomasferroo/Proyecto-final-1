@@ -1,0 +1,117 @@
+header .navbar {
+  background-color: #4b5150 !important; }
+  header .navbar .container-fluid .navbar-brand {
+    color: white;
+    font-size: 1.4rem; }
+  header .navbar .container-fluid .collapse .navbar-nav {
+    gap: 0.5rem; }
+    header .navbar .container-fluid .collapse .navbar-nav .nav-item .boton-header {
+      border-radius: 2rem;
+      background-color: #bdcc66; }
+    header .navbar .container-fluid .collapse .navbar-nav .nav-item a {
+      font-size: 1.2rem; }
+
+.main-index {
+  background-color: #dff9f4;
+  padding-bottom: 2rem; }
+  .main-index h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center; }
+  .main-index .container-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%; }
+    .main-index .container-informacion .container-imagenes {
+      width: 100%; }
+      .main-index .container-informacion .container-imagenes img {
+        width: 100%; }
+      .main-index .container-informacion .container-imagenes img:hover {
+        transform: scale(1.02, 1.02); }
+    .main-index .container-informacion .informacion-principal {
+      margin-top: 2rem;
+      border-radius: 1rem;
+      background-color: #42353d;
+      opacity: 0.8;
+      padding: 1rem;
+      color: whitesmoke;
+      font-size: 1.25rem; }
+    .main-index .container-informacion .informacion-principal:hover {
+      transform: scale(1.02, 1.02); }
+
+footer {
+  background-color: #4b5150; }
+  footer .contenedor-boton-vermas {
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer .contenedor-boton-vermas .boton-vermas {
+      width: 9rem;
+      height: 4.5rem;
+      border-radius: 2rem;
+      background-color: #bdcc66; }
+
+header .navbar {
+  background-color: #4b5150 !important; }
+  header .navbar .container-fluid .navbar-brand {
+    color: white;
+    font-size: 1.4rem; }
+  header .navbar .container-fluid .collapse .navbar-nav {
+    gap: 0.5rem; }
+    header .navbar .container-fluid .collapse .navbar-nav .nav-item .boton-header {
+      border-radius: 2rem;
+      background-color: #bdcc66; }
+    header .navbar .container-fluid .collapse .navbar-nav .nav-item a {
+      font-size: 1.2rem; }
+
+.main-contacto {
+  display: flex;
+  justify-content: center;
+  background-color: #dff9f4; }
+  .main-contacto .container-contactos {
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 4rem; }
+    .main-contacto .container-contactos h1 {
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+    .main-contacto .container-contactos .container-redes {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      margin-top: 6rem;
+      margin-bottom: 6rem; }
+      .main-contacto .container-contactos .container-redes .boton-gmail button {
+        width: 11.5rem;
+        height: 4.5rem;
+        background-color: #E62143;
+        border-radius: 1.2rem;
+        border-color: #E62143;
+        color: white;
+        font-size: 1.25rem; }
+      .main-contacto .container-contactos .container-redes .boton-whatsapp button {
+        width: 11.5rem;
+        height: 4.5rem;
+        background-color: #ABF1C6;
+        border-radius: 1.2rem;
+        border-color: #ABF1C6;
+        color: black;
+        font-size: 1.25rem; }
+
+footer {
+  background-color: #4b5150; }
+  footer .contenedor-boton-vermas {
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer .contenedor-boton-vermas .boton-vermas {
+      width: 9rem;
+      height: 4.5rem;
+      border-radius: 2rem;
+      background-color: #bdcc66; }

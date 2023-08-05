@@ -1,0 +1,15 @@
+@mixin estilo-footer{
+    background-color: #4b5150;
+    .contenedor-boton-vermas{
+        padding: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .boton-vermas{
+            width: 9rem;
+            height: 4.5rem;
+            border-radius: 2rem;
+            background-color: #bdcc66;
+        }
+    }
+}

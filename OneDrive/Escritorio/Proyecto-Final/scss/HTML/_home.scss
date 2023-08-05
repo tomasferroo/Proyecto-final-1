@@ -1,0 +1,67 @@
+@import "../Utilidades/extend";
+@import "../Utilidades/mixin";
+@import "../Utilidades/variables";
+
+// Estilos del Header
+
+header {
+    @extend %estilo-header;
+}
+
+
+// Estilos del main
+
+.main-index {
+
+    background-color: $fondo-principal;
+    padding-bottom: 2rem;
+
+    h1 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+
+    }
+
+    .container-informacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+        margin-right: 15%;
+
+        .container-imagenes {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+
+            img:hover {
+                transform: scale(1.02, 1.02);
+            }
+        }
+
+        .informacion-principal {
+            margin-top: 2rem;
+            border-radius: 1rem;
+            background-color: #42353d;
+            opacity: 0.8;
+            padding: 1rem;
+            color: whitesmoke;
+            font-size: 1.25rem;
+
+        }
+
+        .informacion-principal:hover {
+            transform: scale(1.02, 1.02);
+        }
+    }
+}
+
+// Estilos Footer
+
+footer {
+    @include estilo-footer;
+}
